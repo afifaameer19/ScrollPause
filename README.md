@@ -17,4 +17,4 @@ Since pop-up overlays are restricted on YouTube, ScrollPause currently uses syst
 
 Future Enhancements:
 
-We plan to publish ScrollPause on the real devices and request the necessary permissions to enable full pop-up overlays and deeper system integration. Additional improvements will include configurable time limits, enhanced UI polish, and broader testing on physical devices to ensure a smoother and more reliable user experience.
+We plan to publish ScrollPause on the real devices and detection of rrls and shorts in real time , request the necessary permissions to enable full pop-up overlays and deeper system integration. Additional improvements will include configurable time limits, enhanced UI polish, and broader testing on physical devices to ensure a smoother and more reliable user experience.
