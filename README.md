@@ -18,3 +18,25 @@ Since pop-up overlays are restricted on YouTube, ScrollPause currently uses syst
 Future Enhancements:
 
 We plan to publish ScrollPause on the real devices and detection of rrls and shorts in real time , request the necessary permissions to enable full pop-up overlays and deeper system integration. Additional improvements will include configurable time limits, enhanced UI polish, and broader testing on physical devices to ensure a smoother and more reliable user experience.
+ 
+Tech Stack:
+
+The app is developed using Java in Android Studio. It utilizes core Android components such as Activities, Services, Foreground Services, Broadcast Receivers, and Notifications. The app leverages the UsageStatsManager API for app usage tracking, SharedPreferences for storing tasks, and Handler/Looper for timed operations.
+All UI layouts are built using XML, ensuring a calm and responsive interface. The app targets Android API level 33+ and supports runtime permissions for Android 13 and above.
+ 
+Features:
+
+>Timed scroll monitoring with a notification trigger after a set duration (10–20 seconds for demo purposes)
+>Gentle intervention using a non-stimulating Tic Tac Toe mini-game
+>Task input prompt to encourage mindful planning after gameplay
+>User choice between continuing scrolling or focusing on entered tasks
+>Limited rounds of interaction to prevent over-engagement
+>Friendly reminders promoting task completion and self-reflection
+>Foreground service for continuous monitoring even when the app runs in the background
+>Calm, minimal UI design aligned with reducing digital overstimulation
+
+
+deployment:
+
+The app can be deployed as a standalone APK using Android Studio. Since it relies on foreground services and notifications instead of overlay popups, it does not require special system overlay permissions. After building the project via Build → Rebuild Project, the APK can be signed and installed on devices running Android API 26+.
+Runtime permissions for notifications and usage access are requested on first launch. The app can be distributed via side-loading for demo purposes and is fully compatible with both physical Android devices and emulators.
