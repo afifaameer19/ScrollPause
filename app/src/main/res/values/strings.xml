@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ScrollPause</string>
+    <string name="accessibility_service_description">ScrollPause monitors app scrolling to suggest breaks.</string>
+
+</resources>
